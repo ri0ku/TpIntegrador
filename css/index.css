@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+.carouselPrincipal{
+    position: relative;
+    top:100vh;
+    z-index: 2;
+}
+.overlay{
+    text-align: end;
+    position:absolute;
+    right: 10%;
+    top: 40%;
+    z-index: 3;
+    color:white;
+}
+#oradores>p,h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+#oradores>p{
+    margin-top: 5px;
+}
+#participa>p,h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+#menufoot{
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg,rgba(27,55,67,1)0%,rgba(31,82,113,1)100%);
+}
